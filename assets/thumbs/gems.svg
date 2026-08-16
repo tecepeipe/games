@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122449"/>
+      <stop offset="1" stop-color="#0a1730"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+
+  <g>
+    <rect x="40" y="36" width="44" height="44" rx="10" fill="#d64545"/>
+    <polygon points="62,46 71,58 62,70 53,58" fill="#ffffff"/>
+    <rect x="96" y="36" width="44" height="44" rx="10" fill="#3fae5a"/>
+    <polygon points="118,46 127,58 118,70 109,58" fill="#ffffff"/>
+    <rect x="152" y="36" width="44" height="44" rx="10" fill="#4d7fd9"/>
+    <polygon points="174,46 183,58 174,70 165,58" fill="#ffffff"/>
+    <rect x="208" y="36" width="44" height="44" rx="10" fill="#eef2f7" stroke="#9db4d8" stroke-width="1.5"/>
+    <polygon points="230,46 239,58 230,70 221,58" fill="#2c3038"/>
+    <rect x="264" y="36" width="44" height="44" rx="10" fill="#2c3038"/>
+    <polygon points="286,46 295,58 286,70 277,58" fill="#ffffff"/>
+  </g>
+
+  <g transform="rotate(-5 142 210)">
+    <rect x="96" y="150" width="92" height="120" rx="8" fill="#eef2f7" stroke="#9db4d8" stroke-width="1.5"/>
+    <rect x="96" y="150" width="92" height="26" rx="8" fill="#d64545"/>
+    <polygon points="142,156 149,163 142,170 135,163" fill="#ffffff"/>
+    <circle cx="122" cy="200" r="5" fill="#3fae5a"/>
+    <circle cx="142" cy="200" r="5" fill="#4d7fd9"/>
+    <circle cx="162" cy="200" r="5" fill="#e8c34d"/>
+  </g>
+
+  <g transform="rotate(0 196 206)">
+    <rect x="150" y="146" width="92" height="120" rx="8" fill="#eef2f7" stroke="#9db4d8" stroke-width="1.5"/>
+    <rect x="150" y="146" width="92" height="26" rx="8" fill="#3fae5a"/>
+    <polygon points="196,152 203,159 196,166 189,159" fill="#ffffff"/>
+    <circle cx="176" cy="196" r="5" fill="#e8c34d"/>
+    <circle cx="196" cy="196" r="5" fill="#d64545"/>
+    <circle cx="216" cy="196" r="5" fill="#4d7fd9"/>
+  </g>
+
+  <g transform="rotate(5 250 210)">
+    <rect x="204" y="150" width="92" height="120" rx="8" fill="#eef2f7" stroke="#9db4d8" stroke-width="1.5"/>
+    <rect x="204" y="150" width="92" height="26" rx="8" fill="#4d7fd9"/>
+    <polygon points="250,156 257,163 250,170 243,163" fill="#ffffff"/>
+    <circle cx="230" cy="200" r="5" fill="#d64545"/>
+    <circle cx="250" cy="200" r="5" fill="#3fae5a"/>
+    <circle cx="270" cy="200" r="5" fill="#2c3038"/>
+  </g>
+</svg>

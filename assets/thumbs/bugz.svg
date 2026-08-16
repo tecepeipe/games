@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122449"/>
+      <stop offset="1" stop-color="#0a1730"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <g stroke="#4f86cf" stroke-width="2.5" opacity="0.55">
+    <line x1="200" y1="130" x2="252" y2="130"/>
+    <line x1="200" y1="130" x2="226" y2="85"/>
+    <line x1="200" y1="130" x2="174" y2="85"/>
+    <line x1="200" y1="130" x2="148" y2="130"/>
+    <line x1="200" y1="130" x2="174" y2="175"/>
+    <line x1="200" y1="130" x2="226" y2="175"/>
+  </g>
+  <g fill="#1d3c6e" stroke="#5d96dd" stroke-width="2.5">
+    <path d="M252,100 L278,115 L278,145 L252,160 L226,145 L226,115 Z"/>
+    <path d="M226,55 L252,70 L252,100 L226,115 L200,100 L200,70 Z"/>
+    <path d="M174,55 L200,70 L200,100 L174,115 L148,100 L148,70 Z"/>
+    <path d="M148,100 L174,115 L174,145 L148,160 L122,145 L122,115 Z"/>
+    <path d="M174,145 L200,160 L200,190 L174,205 L148,190 L148,160 Z"/>
+    <path d="M226,145 L252,160 L252,190 L226,205 L200,190 L200,160 Z"/>
+  </g>
+  <path d="M200,100 L226,115 L226,145 L200,160 L174,145 L174,115 Z" fill="#2d55a0" stroke="#8fc0ff" stroke-width="3"/>
+  <g text-anchor="middle" dominant-baseline="middle">
+    <text x="200" y="136" font-size="46">🐝</text>
+    <text x="252" y="136" font-size="30">🐞</text>
+    <text x="226" y="91" font-size="30">🐜</text>
+    <text x="174" y="91" font-size="30">🕷️</text>
+    <text x="148" y="136" font-size="30">🦗</text>
+    <text x="174" y="181" font-size="30">🐛</text>
+    <text x="226" y="181" font-size="30">🦂</text>
+  </g>
+</svg>

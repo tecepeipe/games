@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122449"/>
+      <stop offset="1" stop-color="#0a1730"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+  <g transform="rotate(-7 210 130)">
+    <rect x="105" y="55" width="210" height="150" rx="14" fill="#1d3c6e" stroke="#4f86cf" stroke-width="2"/>
+  </g>
+  <g transform="rotate(3 190 130)">
+    <rect x="95" y="48" width="210" height="164" rx="14" fill="#f4f7ff" stroke="#b8cdf5" stroke-width="2"/>
+    <text x="200" y="72" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#274b8a">SUPER TRUNFO</text>
+    <text x="200" y="126" text-anchor="middle" font-size="60">✈️</text>
+    <g font-family="system-ui, sans-serif" font-size="11" fill="#274b8a">
+      <text x="118" y="172">SPEED</text>
+      <rect x="172" y="163" width="92" height="8" rx="4" fill="#dbe6fa"/>
+      <rect x="172" y="163" width="72" height="8" rx="4" fill="#3f7fd4"/>
+      <text x="276" y="172">2.6</text>
+      <text x="118" y="190">ARMS</text>
+      <rect x="172" y="181" width="92" height="8" rx="4" fill="#dbe6fa"/>
+      <rect x="172" y="181" width="54" height="8" rx="4" fill="#3f7fd4"/>
+      <text x="276" y="190">1.9</text>
+      <text x="118" y="208">HANDLING</text>
+      <rect x="172" y="199" width="92" height="8" rx="4" fill="#dbe6fa"/>
+      <rect x="172" y="199" width="63" height="8" rx="4" fill="#3f7fd4"/>
+      <text x="276" y="208">2.2</text>
+    </g>
+  </g>
+</svg>
