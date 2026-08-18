@@ -1,16 +1,160 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
-    <meta name="theme-color" content="#7c3aed" />
-    <meta name="description" content="Citadels — draft characters, build your medieval city, and outwit your rivals in the classic card game." />
-    <title>Citadels</title>
-    <script type="module" crossorigin src="./assets/index-CL3rMHYw.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Cb5DC5Gk.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Board Games</title>
+  <style>
+    :root {
+      --ink: #e6eefc;
+      --muted: #9db9e4;
+      --blue: #7aa8ff;
+      --cyan: #6cd7ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-rounded, system-ui, "Segoe UI", Roboto, sans-serif;
+      color: var(--ink);
+      min-height: 100vh;
+      background:
+        radial-gradient(1200px 600px at 20% -10%, rgba(74, 144, 255, 0.35), transparent 60%),
+        radial-gradient(900px 500px at 90% 110%, rgba(38, 92, 204, 0.35), transparent 55%),
+        linear-gradient(160deg, #0b1730, #0e2040 55%, #0a1730);
+    }
+    header { text-align: center; padding: 56px 20px 12px; }
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 5vw, 46px);
+      letter-spacing: 0.5px;
+      background: linear-gradient(90deg, #9cc4ff, #6cd7ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    p.sub { color: var(--muted); margin: 10px 0 0; }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 26px;
+    }
+    .card {
+      display: block;
+      position: relative;
+      border-radius: 18px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      background: linear-gradient(180deg, rgba(38, 76, 153, 0.28), rgba(16, 32, 64, 0.45));
+      border: 1px solid rgba(120, 160, 255, 0.22);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(120, 180, 255, 0.6);
+      box-shadow: 0 16px 40px rgba(30, 90, 220, 0.35);
+    }
+    .thumb {
+      width: 100%;
+      aspect-ratio: 400 / 260;
+      display: block;
+      object-fit: cover;
+    }
+    .info { padding: 14px 16px 18px; }
+    .name {
+      font-size: 20px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .name span:last-child { color: var(--cyan); }
+    .desc { color: var(--muted); font-size: 14px; margin-top: 6px; line-height: 1.45; }
+    .tag {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #7ea6e8;
+      border: 1px solid rgba(126, 166, 232, 0.4);
+      padding: 3px 8px;
+      border-radius: 999px;
+    }
+    footer {
+      text-align: center;
+      color: #5f7fb4;
+      padding: 0 20px 40px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Board Games</h1>
+    <p class="sub">Pick a game — pass &amp; play or challenge the AI</p>
+  </header>
+
+  <main>
+    <a class="card" href="bugz-strategy/">
+      <img class="thumb" src="assets/thumbs/bugz.svg" alt="Bugz Strategy thumbnail">
+      <div class="info">
+        <div class="name"><span>🐝 Bugz Strategy</span><span>→</span></div>
+        <div class="desc">Hex-based bug armies in turn-based tactical duels.</div>
+        <span class="tag">2 players · AI</span>
+      </div>
+    </a>
+
+    <a class="card" href="trunfo/">
+      <img class="thumb" src="assets/thumbs/trunfo.svg" alt="Super Trunfo thumbnail">
+      <div class="info">
+        <div class="name"><span>✈️ Super Trunfo</span><span>→</span></div>
+        <div class="desc">Aircraft card duels — pick your best stat and win the hand.</div>
+        <span class="tag">vs AI</span>
+      </div>
+    </a>
+
+    <a class="card" href="rogue-like-poker/">
+      <img class="thumb" src="assets/thumbs/poker.svg" alt="Rogue Poker thumbnail">
+      <div class="info">
+        <div class="name"><span>♠️ Rogue Poker</span><span>→</span></div>
+        <div class="desc">Texas Hold'em, Video Poker and a Balatro-style roguelike run.</div>
+        <span class="tag">3 modes · AI</span>
+      </div>
+    </a>
+
+    <a class="card" href="mosaic/">
+      <img class="thumb" src="assets/thumbs/mosaic.svg" alt="Mosaic thumbnail">
+      <div class="info">
+        <div class="name"><span>🧩 Mosaic</span><span>→</span></div>
+        <div class="desc">Draft colorful tiles and complete your pattern wall.</div>
+        <span class="tag">2 players · AI</span>
+      </div>
+    </a>
+
+    <a class="card" href="pantheon-tactics/">
+      <img class="thumb" src="assets/thumbs/pantheon.svg" alt="Pantheon Tactics thumbnail">
+      <div class="info">
+        <div class="name"><span>🏛️ Pantheon Tactics</span><span>→</span></div>
+        <div class="desc">Draft cards, build wonders, and claim glory for your civilization.</div>
+        <span class="tag">3–4 players · Duel · AI</span>
+      </div>
+    </a>
+
+    <a class="card" href="gems/">
+      <img class="thumb" src="assets/thumbs/gems.svg" alt="Gems thumbnail">
+      <div class="info">
+        <div class="name"><span>💎 Gems</span><span>→</span></div>
+        <div class="desc">Gather gem tokens and build a glittering card engine.</div>
+        <span class="tag">2–4 players · AI</span>
+      </div>
+    </a>
+  </main>
+
+  <footer>All games run fully on-device — no server required.</footer>
+</body>
 </html>
