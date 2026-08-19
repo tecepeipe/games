@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c2a12"/>
+      <stop offset="1" stop-color="#15140a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+
+  <!-- resource cards: brick, wood, grain, ore, wool, gold -->
+  <g transform="rotate(-5 70 70)">
+    <rect x="36" y="30" width="58" height="82" rx="7" fill="#b4553a" stroke="#d9a05b" stroke-width="2"/>
+    <rect x="36" y="30" width="58" height="20" rx="7" fill="#8f3a24"/>
+    <text x="65" y="90" text-anchor="middle" font-size="26">🧱</text>
+  </g>
+  <g transform="rotate(2 118 62)">
+    <rect x="90" y="22" width="56" height="80" rx="7" fill="#3f7a3a" stroke="#8fbf8a" stroke-width="2"/>
+    <rect x="90" y="22" width="56" height="20" rx="7" fill="#2f5a2c"/>
+    <text x="118" y="76" text-anchor="middle" font-size="26">🌲</text>
+  </g>
+  <g transform="rotate(4 160 70)">
+    <rect x="132" y="30" width="56" height="80" rx="7" fill="#e8c34d" stroke="#f5d77a" stroke-width="2"/>
+    <rect x="132" y="30" width="56" height="20" rx="7" fill="#b8921a"/>
+    <text x="160" y="84" text-anchor="middle" font-size="26">🌾</text>
+  </g>
+  <g transform="rotate(-2 208 66)">
+    <rect x="180" y="26" width="56" height="80" rx="7" fill="#6a6a6a" stroke="#a0a0a0" stroke-width="2"/>
+    <rect x="180" y="26" width="56" height="20" rx="7" fill="#4a4a4a"/>
+    <text x="208" y="80" text-anchor="middle" font-size="26">⛏️</text>
+  </g>
+
+  <!-- principality grid with knight -->
+  <g>
+    <rect x="90" y="150" width="70" height="44" rx="5" fill="#3f6fb8" stroke="#8fc0ff" stroke-width="1.5"/>
+    <rect x="165" y="150" width="70" height="44" rx="5" fill="#3fae5a" stroke="#8fe0b0" stroke-width="1.5"/>
+    <rect x="240" y="150" width="70" height="44" rx="5" fill="#b8a03a" stroke="#e8d47a" stroke-width="1.5"/>
+    <rect x="128" y="198" width="70" height="44" rx="5" fill="#6a6a6a" stroke="#c0c0c0" stroke-width="1.5"/>
+    <rect x="203" y="198" width="70" height="44" rx="5" fill="#3f6fb8" stroke="#8fc0ff" stroke-width="1.5"/>
+  </g>
+  <g transform="rotate(-10 160 220)">
+    <rect x="128" y="196" width="44" height="62" rx="6" fill="#eef2f7" stroke="#9db4d8" stroke-width="1.5"/>
+    <text x="150" y="238" text-anchor="middle" font-size="28">🤺</text>
+  </g>
+</svg>

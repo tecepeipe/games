@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e2a3a"/>
+      <stop offset="1" stop-color="#071a26"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg)"/>
+
+  <!-- Caribbean water + sun -->
+  <circle cx="350" cy="44" r="26" fill="#e8c34d" opacity="0.9"/>
+  <rect x="0" y="210" width="400" height="50" fill="#1d5a7a" opacity="0.5"/>
+
+  <!-- city buildings -->
+  <g fill="#3fae5a">
+    <rect x="50" y="150" width="40" height="60" rx="4"/>
+    <rect x="96" y="126" width="44" height="84" rx="4" fill="#4d7fd9"/>
+    <rect x="146" y="140" width="38" height="70" rx="4" fill="#e8c34d"/>
+    <rect x="190" y="120" width="46" height="90" rx="4" fill="#d9a05b"/>
+  </g>
+
+  <!-- role card (trader) -->
+  <g transform="rotate(-6 250 130)">
+    <rect x="212" y="74" width="76" height="116" rx="8" fill="#eef2f7" stroke="#9db4d8" stroke-width="1.5"/>
+    <rect x="212" y="74" width="76" height="26" rx="8" fill="#c0392b"/>
+    <text x="250" y="94" text-anchor="middle" font-size="12" fill="#fff" font-weight="700">Trader</text>
+    <text x="250" y="150" text-anchor="middle" font-size="30">🏺</text>
+  </g>
+
+  <!-- goods tokens -->
+  <g>
+    <circle cx="300" cy="196" r="11" fill="#e8c34d" stroke="#a87b1a" stroke-width="2"/>
+    <text x="300" y="200" text-anchor="middle" font-size="10" fill="#7a5200">☕</text>
+    <circle cx="330" cy="180" r="11" fill="#d64545" stroke="#8f2c2c" stroke-width="2"/>
+    <text x="330" y="184" text-anchor="middle" font-size="10">🫘</text>
+    <circle cx="340" cy="206" r="11" fill="#9db4d8" stroke="#5f7fb4" stroke-width="2"/>
+  </g>
+
+  <!-- prospector card small -->
+  <g transform="rotate(4 340 70)">
+    <rect x="310" y="44" width="60" height="84" rx="6" fill="#eef2f7" stroke="#9db4d8" stroke-width="1.5"/>
+    <rect x="310" y="44" width="60" height="22" rx="6" fill="#2c3038"/>
+    <text x="340" y="100" text-anchor="middle" font-size="24">⛏️</text>
+  </g>
+</svg>
